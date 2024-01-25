@@ -7,12 +7,13 @@
     <title>RunSmart</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
     <div class="promo">
-        <section class="container">
+        <section id="header" class="container">
             <header class="header">
                 <a href="#" class="header__logo"><img src="img/running-man-2-64.png" alt="logo"></a>
                 <div class="header__official">
@@ -75,7 +76,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/heart.png" alt="" class="advantages__icon">
+                    <img src="icons/heart.png" alt="" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">
                         Заботимся о здоровье
                     </div>
@@ -143,7 +144,7 @@
                     </div>
                 </li>
             </ul>
-            <div class="catalog__content catalog__content_active">               
+            <div class="catalog__content catalog__content_active">
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
@@ -175,7 +176,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -208,7 +209,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -241,7 +242,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -274,7 +275,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -307,7 +308,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -340,7 +341,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
             </div>
             <div class="catalog__content">
@@ -375,7 +376,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -408,7 +409,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
             </div>
             <div class="catalog__content">
@@ -443,7 +444,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -476,7 +477,7 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
@@ -509,42 +510,43 @@
                         </div>
                         <button class="button button_catalog">КУПИТЬ</button>
                     </div>
-                
+
                 </div>
-    
+
             </div>
 
         </div>
-       
+
         </div>
     </section>
     <section class="feed">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="feed__item">
+            <div data-wow-duration="2s" data-wow-delay="1s" class="feed__item wow animate__animated animate__fadeInUp">
                 <img src="img/photo_1.png" alt="" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Ирина Иванченко </div>
                     <div class="feed__count">2 полумарафона</div>
                     <div class="feed__desc">Не знала, что себе купить - обратилась к ребятам
-                         из RunSmart - подобрали пульсометр, который подошёл именно под мои
-                         цели и финансовые возможности.Через некоторое время решила
-                         обновить гаджет - не раздумывая обратилась туда же.
-                         <br><br>
-                         Новые цели - новый гаджет!
-                         <br><br>
-                        Спасибо, RunSmart! </div>
+                        из RunSmart - подобрали пульсометр, который подошёл именно под мои
+                        цели и финансовые возможности.Через некоторое время решила
+                        обновить гаджет - не раздумывая обратилась туда же.
+                        <br><br>
+                        Новые цели - новый гаджет!
+                        <br><br>
+                        Спасибо, RunSmart!
+                    </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div data-wow-duration="2s" data-wow-delay="1s" class="feed__item wow animate__animated animate__fadeInUp">
                 <img src="img/photo_2.png" alt="" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Иван Сёмочкин</div>
                     <div class="feed__count">1 полумарафон</div>
                     <div class="feed__desc">Крутая штука-пульсометр. Обычно без них бегал.
-                        Оказывается только хуже себе делал. 
+                        Оказывается только хуже себе делал.
                         <br>
-                        Купил пульсометр, ещё в подарок 
+                        Купил пульсометр, ещё в подарок
                         получил тренировку. Со мной вместе провели первую тренировку, научили
                         пользоваться новым гаджетом. Также объяснили основы анатомии, составили
                         план тренировок на месяц вперёд.
@@ -554,7 +556,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div data-wow-duration="2s" data-wow-delay="1s" class="feed__item wow animate__animated animate__fadeInUp">
                 <img src="img/photo_3.png" alt="" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Юлия Дашкина</div>
@@ -591,17 +593,17 @@
                 <a href="#" class="footer__social-item"><img src="icons/pinterest.svg" alt="pinterest"></a>
             </div>
         </div>
-    </footer>  
-    
+    </footer>
+
     <div class="overlay">
         <div id="consultation" class="modal">
             <div class="modal__close">&times;</div>
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__desc">и мы перезвоним вам в течении 10 минут</div>
             <form action="POST" class="feed-form feed-form_mt26">
-                <input  placeholder="Ваше имя" name="name" type="text">
-                <input  placeholder="Ваш телефон" name="tel" type="tel">
-                <input  placeholder="Ваш E-mail" name="email" type="email">
+                <input placeholder="Ваше имя" name="name" type="text">
+                <input placeholder="Ваш телефон" name="tel" type="tel">
+                <input placeholder="Ваш E-mail" name="email" type="email">
                 <button class="button button_submit" type="submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
@@ -610,9 +612,9 @@
             <div class="modal__subtitle">Ваш заказ:</div>
             <div class="modal__desc">Пульсометр Polar FT1</div>
             <form action="POST" class="feed-form feed-form_mt26">
-                <input  placeholder="Ваше имя" name="name" type="text">
-                <input  placeholder="Ваш телефон" name="tel" type="tel">
-                <input  placeholder="Ваш E-mail" name="email" type="email">
+                <input placeholder="Ваше имя" name="name" type="text">
+                <input placeholder="Ваш телефон" name="tel" type="tel">
+                <input placeholder="Ваш E-mail" name="email" type="email">
                 <button class="button button_submit" type="submit">Купить</button>
             </form>
         </div>
@@ -623,10 +625,14 @@
         </div>
     </div>
 
+    <a href="#header" class="scroll-up"><img src="icons/circle-up-solid.svg" alt="up"></a>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

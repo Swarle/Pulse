@@ -88,4 +88,20 @@ const slider = tns({
     validateForms('#order form');
 
     $('input[name=tel]').mask("+7 (999) 999-99-99");
+
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 1600){
+            $('.scroll-up').fadeIn();
+        } else{
+            $('.scroll-up').fadeOut();
+        }
+    });
+
+    $("a[href^='#']").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
+
+    new WOW().init();
   });
